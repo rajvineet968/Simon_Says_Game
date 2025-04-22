@@ -56,7 +56,9 @@ function checkAns(idx){//for checking the answer of the user sequence with the g
         h2.innerHTML=`Game Over, Your score was <b> ${level} </b> <br> Press Any Key to Restart`;
         document.querySelector("body").style.backgroundColor="red";//for game over background color
         setTimeout(function(){document.querySelector("body").style.backgroundColor="#f99b45"},150);//for original color to #f99b45 after 150 milliseconds
-        }
+        maxscore();
+        reset();
+       }
 }
 
 
