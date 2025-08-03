@@ -85,7 +85,7 @@ function reset(){//reset function to reset the game
     started=false;
 }
 
-function maxscore(){//HW by shradha dii for displaying max score till now played
+function maxscore(){
        if (level>max){
         max=level;
         h3=document.querySelector("h3");
